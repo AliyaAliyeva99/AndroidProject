@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.home.activities.TransactionSearchActivity"
+    >
+
+    <item
+        android:id="@+id/client"
+        android:title="Musteriler\nCount"
+        app:showAsAction="always">
+    </item>ale
+    <item
+        android:id="@+id/search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="search"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"/>
+
+    <item
+        android:id="@+id/GPS"
+        android:title="GPS"
+        android:icon="@drawable/ic_baseline_location_on_24"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/filtr"
+        android:icon="@drawable/ic_baseline_filter_list_24"
+        android:title="F"
+        app:showAsAction="always" />
+
+
+
+</menu>
